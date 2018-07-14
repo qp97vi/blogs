@@ -1,0 +1,7 @@
+.content{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}

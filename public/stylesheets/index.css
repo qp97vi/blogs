@@ -1,0 +1,87 @@
+.nav-backgroud{
+    height: 50px;
+    width: 100%;
+    background: teal;
+    overflow: hidden;
+    line-height: 50px;
+}
+.nav-list a{
+    float: left;
+}
+.nav-title{
+    float: left;
+    margin-left: 30px;
+}
+.nav-list{
+    float: left;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.nav-list a{
+    margin-right: 30px
+}
+.nav-user{
+    float: right;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.user-img{
+    float: left;
+}
+.nav-user .btn-primary{
+    margin-top: 10px;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background: #5e9ef1;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+.Blog-background{
+    margin-top: 30px;
+    padding: 0 30px;
+    height: 600px;
+}
+.Blog-background a{
+    float: right;
+    width: 60px;
+    height: 30px;
+    background: #5e9ef1;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.success{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.success .top{
+    margin-bottom: 25px;
+}
+.successBox{
+    padding: 30px 45px;
+    border: 1px solid #cccccc
+}
+.successBox .check{
+    display: flex;
+    justify-content: space-between;
+}
+.user-img a{
+    display: inline-block;
+
+}
+ img{
+    width: 50px;
+    height: 50px;
+}

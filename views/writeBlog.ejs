@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+    <nav class="nav-backgroud">
+        <div class="nav-title">博客</div>
+        <div class="nav-list">
+          <ul>
+            <a href="">
+              <li>发现</li>
+            </a>
+            <a href="">
+              <li>关注</li>
+            </a>
+            <a href="/news">
+              <li>消息</li>
+            </a>
+            <a href="about">
+              <li>关于</li>
+            </a>
+          </ul>
+        </div>
+        <div class="nav-user">
+          <div class="user-img">
+            <a><img src="" alt=""></a>
+          </div>
+          <a href="/writeBlog" class="btn-primary">写博客</a>
+        </div>
+      </nav>
+      <section class="Blog-background">
+       
+          <form method="post" action="/writeBlog" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="exampleInputEmail1">标题</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="title" placeholder="title">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">内容</label>
+            <textarea class="form-control" rows="5" name="content"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">图片</label>
+            <input type="file" name="kerwinphoto"/>
+          </div>
+          <button type="submit" class="btn btn-default">发表</button>
+        </form>
+      </section>
+</body>
+</html>
